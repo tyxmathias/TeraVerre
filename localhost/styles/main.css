@@ -1,0 +1,68 @@
+/* Couleurs */
+:root {
+    --color-primary: #00C956;
+    --color-accent: #00D77F;
+    --color-background: #FFFBF6;
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+header .nav-link:hover {
+    color: white;
+    background-color: var(--color-primary);
+}
+
+footer {
+    bottom: 0px;
+    clear: both;
+    position: relative;
+}
+
+#title {
+    color: var(--color-accent)
+}
+
+/* Bouttons */
+.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary)
+}
+
+.btn:hover {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+.btn-outline-primary {
+    border-color: var(--color-accent);
+    color: var(--color-accent)
+}
+
+.nav-link {
+    color: black;
+}
+
+/* Cartes */
+.card {
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* SVG - Composition */
+#svg-container {
+    position: relative
+}
+
+#base-svg {
+    position: absolute;
+    top: 170px;
+    left: 15px;
+}
